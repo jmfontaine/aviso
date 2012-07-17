@@ -19,5 +19,8 @@
     "autoload": {
         "psr-0": { "Aviso": "src/" }
     },
+    "support": {
+        "issues": "https://github.com/jmfontaine/aviso"
+    },
     "minimum-stability": "dev"
 }
