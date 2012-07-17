@@ -1,12 +1,16 @@
 {
-    "name": "Aviso",
+    "name": "jmfontaine/aviso",
     "description": "Aviso is a notification library for PHP",
+    "type": "library",
+    "keywords": ["notification","notify"],
     "license": "BSD-3-Clause",
+    "homepage": "http://github.com/jmfontaine/aviso",
     "authors": [
         {
             "name": "Jean-Marc Fontaine",
             "email": "jm@jmfontaine.net",
-            "homepage": "http://jmfontaine.net/"
+            "homepage": "http://jmfontaine.net/",
+            "role": "Developer"
         }
     ],
     "require": {
