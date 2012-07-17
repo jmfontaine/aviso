@@ -31,6 +31,9 @@ class Event
 
     public function setTitle($title)
     {
+        if (!is_string($title)) {
+            throw new \InvalidArgumentException('Title must be a string');
+        }
         $this->title = $title;
 
         return $this;
@@ -71,6 +74,9 @@ class Event
 
     public function setMessage($message)
     {
+        if (!is_string($message)) {
+            throw new \InvalidArgumentException('Message must be a string');
+        }
         $this->message = $message;
 
         return $this;
