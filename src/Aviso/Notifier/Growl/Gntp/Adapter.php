@@ -39,8 +39,8 @@ class Adapter
         fwrite($handle, $request);
 
         $stringResponse = '';
-        while (!feof($handle)) {
-            $stringResponse .= fgets($handle, 128);
+        while (($currentLine = fgets($handle, 128)) !== false ) {
+            $stringResponse .= $currentLine;
         }
         fclose($handle);
 
